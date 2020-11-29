@@ -813,9 +813,100 @@ button:hover {
     color: #333333;
 }
 
+.foot {
+    background-color: #D33A2C;
+    margin-top: 80px;
+    position: relative;
+}
 
+.foot1 {
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
 
+.foot2 {
+    width: 80%;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    line-height: 2.4;
+}
 
+.foot2 a {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 10px 14px;
+}
+
+.foot2 a:hover {
+    color: #410904;
+}
+
+.foot3 {
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 100;
+    color: whitesmoke;
+    text-align: center;
+    width: 30%;
+    margin: 50px auto 0 auto;
+}
+
+.foot3 a {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.foot4 {
+    width: 40%;
+    margin: 25px auto 0 auto;
+    text-align: center;
+    line-height: 2.2;
+    padding-bottom: 60px;
+}
+
+.foot4 a {
+    margin: 0 12px;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.foot-img1 img {
+    position: absolute;
+    left: 60px;
+    bottom: 80px;
+    width: 300px;
+    height:300px;
+}
+
+.foot-img2 img {
+    position: absolute;
+    right: 40px;
+    bottom: 80px;
+    width: 250px;
+    height: 250px;
+}
+
+.icon {
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    padding: 15px;
+    background-color: grey;
+    border-radius: 10px;
+    font-size: 20px;
+    color: wheat;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color:#282634 ;
+}
 
 @media only screen and (max-width:1220px) {
     .cat5 {
@@ -987,3 +1078,4 @@ button:hover {
 
     }
 }
+
