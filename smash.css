@@ -965,6 +965,12 @@ button:hover {
     .umar1 {
         width: 100%;
     }
+
+    .foot-img1 img,
+    .foot-img2 img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media only screen and (max-width:905px) {
@@ -1015,6 +1021,13 @@ button:hover {
     .meow {
         width: 90%;
     }
+
+    .foot-img1 img,
+    .foot-img2 img {
+        width: 150px;
+        height: 150px;
+    }
+
 }
 
 @media only screen and (max-width:660px) {
@@ -1052,6 +1065,11 @@ button:hover {
         font-size: 13px;
     }
 
+    .foot-img1 img,
+    .foot-img2 img {
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width:510px)  {
@@ -1073,9 +1091,13 @@ button:hover {
         flex-wrap: wrap;
     }
 
+    .form1 input,
     .search {
-        width: 100%;
+        width: 99%;
+    }
 
+    header {
+        height: 180px;
     }
 }
 
