@@ -203,7 +203,7 @@ header {
 }
 
 .see {
-    margin: 120px 0 0 450px;
+    margin: 120px auto 0 auto;
     width: fit-content;
     font-size: 18px;
     font-weight: 100;
@@ -481,6 +481,61 @@ button:hover {
     margin-top: 30px;
 }
 
+.meet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#175FFF;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.june {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-top: 60px;
+}
+
+.click {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    text-decoration: underline #6a98fa;
+    margin: 35px 22% 30px 22%;
+}
+
+.click:hover {
+    cursor: pointer;
+}
+
+.our2 {
+    text-align: center;
+    font-size: 18px;
+    color: #F6F3F2;
+    margin: 0 27%;
+}
+
+.bjump {
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    color: #175FFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.june-img {
+    margin-top: 40px ;
+    margin-bottom: 30px;
+    width: 75%;
+    height: 60%;
+}
+
 
 
 
@@ -509,6 +564,14 @@ button:hover {
     .vue {
         width: 40%;
     }
+
+    .hopen {
+        display: none;
+    }
+
+    .join {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:905px) {
@@ -518,8 +581,7 @@ button:hover {
 }
 
 @media only screen and (max-width:840px) {
-    .cat2,
-    .see {
+    .cat2 {
         display: none;
     }
 
