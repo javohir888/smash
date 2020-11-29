@@ -536,10 +536,154 @@ button:hover {
     height: 60%;
 }
 
+.frame {
+    margin-top: 60px;
+}
+
+.works {
+    background-color: white;
+    border-radius: 13px;
+    width: 84%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.work1 {
+    font-size: 14px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-top: 30px; 
+    color: #333333;
+}
 
 
+.work3 {
+    font-size: 18px;
+    margin: 30px;
+}
 
+.work2 a {
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0 0 30px 30px;
+    color: #19A972;
+}
 
+.bexplore {
+    width: 38%;
+    height: 60px;
+    background-color: #19A972;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 30px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.work22 a {
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0 0 30px 30px;
+    color: #FA5800;
+}
+
+.bexplore2 {
+    width: 25%;
+    height: 60px;
+    background-color: #FA5800;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 30px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.work23 a {
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0 0 30px 30px;
+    color: #A91993;
+}
+
+.bexplore3 {
+    width: 25%;
+    height: 60px;
+    background-color: #A91993;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 30px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.meow {
+    width: 60%;
+    margin: 50px auto 0 auto;
+    background-color: #1282BD;
+    border-radius: 12px;
+    padding-bottom: 25px;
+}
+
+.meow1 img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 30px;
+}
+
+.meow2 a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    margin: 30px;
+}
+
+.meow3 {
+    font-size: 18px;
+    color: white;
+    margin: 30px;
+}
+
+.meow4 input {
+    width: 90%;
+    height: 60px;
+    margin: 0 5% 0 5%;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.meow4 {
+    position: relative;
+}
+
+.search-meow {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #0168B8;
+    width: 30%;
+    height: 60px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    right: 5%;
+}
+
+.meow5 {
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    background-color: #0277a8;
+    width: 50%;
+    border-radius: 10px;
+    margin: 20px 25%;
+    padding: 15px;
+}
 
 
 @media only screen and (max-width:1220px) {
@@ -572,6 +716,22 @@ button:hover {
     .join {
         width: 100%;
     }
+
+    .frame,
+    .frame2 {
+        display: flex;
+    }
+
+    .works,
+    .meow {
+        width: 47%;
+    }
+
+    .bexplore,
+    .bexplore2,
+    .bexplore3 {
+        font-size: 17px;
+    }
 }
 
 @media only screen and (max-width:905px) {
@@ -587,6 +747,18 @@ button:hover {
 
     .joker {
         margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width:740px) {
+    .frame, 
+    .frame2 {
+        flex-direction: column;
+    }
+
+    .works,
+    .meow {
+        width: 90%;
     }
 }
 
@@ -607,6 +779,37 @@ button:hover {
     .vue {
         width: 100%;
     }
+
+    .frame,
+    .frame2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .works,
+    .meow {
+        width: 40%;
+    }
+
+    .bexplore,
+    .bexplore2,
+    .bexplore3 {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:510px)  {
+    .frame, 
+    .frame2 {
+        flex-direction: column;
+    }
+
+    .works,
+    .meow {
+        width: 90%;
+    }
+
 }
 
 @media only screen and (max-width:480px) {
