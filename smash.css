@@ -150,6 +150,11 @@ header {
 
 .par {
     margin: 25px 0 0 15px;
+    width: 80%;
+    line-height: 1.8;
+    font-size: 21px;
+    font-family: initial;
+    color: #333;
 }
 
 .conti {
@@ -355,6 +360,12 @@ button:hover {
 .omer:hover {
     cursor: pointer;
     color: black;
+}
+
+.text {
+    font-size: 20px;
+    font-family: initial;
+    line-height: 1.5;
 }
 
 .long {
@@ -565,8 +576,9 @@ button:hover {
 
 
 .work3 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 30px;
+    line-height: 1.5;
 }
 
 .work2 a {
@@ -724,10 +736,12 @@ button:hover {
 }
 
 .system3 {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     width:60%;
     margin-top: 30px;
+    font-family: initial;
+    line-height: 1.5;
 }
 
 .system4 {
@@ -745,6 +759,7 @@ button:hover {
 
 .person {
     display: flex;
+    align-items: center;
     width: 82%;
     margin: 60px auto 0 auto;
 }
@@ -763,16 +778,17 @@ button:hover {
 }
 
 .person-text p {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.8;
     margin-left: 15px;
+    font-family: initial;
 }
 
 .umar {
     display: flex;
     flex-wrap: wrap;
     width: 86%;
-    margin: 60px auto 0 auto;
+    margin: 40px auto 0 auto;
 }
 
 .umar1 {
@@ -814,10 +830,11 @@ button:hover {
 }
 
 .text3 {
-    font-size: 17px;
+    font-size: 19px;
     width: 70%;
     line-height: 1.8;
     color: #333333;
+    font-family: initial;
 }
 
 .foot {
